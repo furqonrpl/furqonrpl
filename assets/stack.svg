@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+<defs>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".5" stop-color="#8B5CF6" stop-opacity=".25"/><stop offset="1" stop-color="#2DE2C8" stop-opacity=".5"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="1" stop-color="#0B1030"/></linearGradient>
+<linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DE2C8"/><stop offset="1" stop-color="#E879F9"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="34"/></filter>
+<clipPath id="c"><rect width="800" height="240" rx="26"/></clipPath>
+</defs>
+<style>
+.b1{animation:d1 16s ease-in-out infinite alternate}.b2{animation:d2 19s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(200px,10px)}}@keyframes d2{to{transform:translate(-210px,-10px)}}
+.g{animation:g 3s ease-in-out infinite}@keyframes g{0%,100%{opacity:.35}50%{opacity:1}}
+.fl{animation:fl 4s ease-in-out infinite}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#c)"><rect width="800" height="240" fill="url(#bg)"/>
+<g filter="url(#blur)"><ellipse class="b1" cx="100" cy="40" rx="170" ry="45" fill="#8B5CF6" opacity=".5"/><ellipse class="b2" cx="700" cy="210" rx="180" ry="45" fill="#2DE2C8" opacity=".45"/><ellipse class="b1" cx="400" cy="230" rx="140" ry="35" fill="#3B82F6" opacity=".4"/></g></g>
+<text x="400" y="38" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="22" letter-spacing="3" fill="url(#t)">Tech Stack</text>
+<g font-family="'Segoe UI',sans-serif" text-anchor="middle">
+<!-- Python -->
+<rect x="40" y="58" width="220" height="152" rx="22" fill="#fff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
+<rect class="g" x="40" y="58" width="220" height="152" rx="22" fill="none" stroke="#3B82F6" stroke-width="2"/>
+<g class="fl"><g transform="translate(122 76)">
+<path d="M28 2C16 2 17 8 17 8v6h12v2H11S3 15 3 29s7 13 7 13h4v-7c0-7 6-8 6-8h12c6 0 8-4 8-8V11c0-6-8-9-16-9z" fill="#3B82F6"/>
+<g transform="rotate(180 28 28)"><path d="M28 2C16 2 17 8 17 8v6h12v2H11S3 15 3 29s7 13 7 13h4v-7c0-7 6-8 6-8h12c6 0 8-4 8-8V11c0-6-8-9-16-9z" fill="#FACC15"/></g>
+<circle cx="22" cy="10" r="2.5" fill="#fff"/><circle cx="34" cy="46" r="2.5" fill="#fff"/></g></g>
+<text x="150" y="162" font-weight="700" font-size="20" fill="#E0E7FF">Python</text>
+<text x="150" y="186" font-size="13" fill="#A5B4FC">bahasa utama</text>
+<!-- PowerShell -->
+<rect x="290" y="58" width="220" height="152" rx="22" fill="#fff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
+<rect class="g" style="animation-delay:1s" x="290" y="58" width="220" height="152" rx="22" fill="none" stroke="#2DE2C8" stroke-width="2"/>
+<g class="fl" style="animation-delay:.6s"><g transform="translate(372 78)">
+<polygon points="12,4 58,4 46,52 2,52" fill="#2B6CB0" stroke="#93C5FD" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="22,18 34,28 20,38" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="35" y1="40" x2="47" y2="40" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g></g>
+<text x="400" y="162" font-weight="700" font-size="20" fill="#E0E7FF">PowerShell</text>
+<text x="400" y="186" font-size="13" fill="#A5B4FC">Windows Terminal</text>
+<!-- Termux -->
+<rect x="540" y="58" width="220" height="152" rx="22" fill="#fff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
+<rect class="g" style="animation-delay:2s" x="540" y="58" width="220" height="152" rx="22" fill="none" stroke="#E879F9" stroke-width="2"/>
+<g class="fl" style="animation-delay:1.2s"><g transform="translate(622 76)">
+<rect width="56" height="56" rx="12" fill="#0B0F1A" stroke="#E5E7EB" stroke-width="2"/>
+<text x="28" y="37" font-family="'Courier New',monospace" font-weight="700" font-size="26" fill="#fff">$_</text></g></g>
+<text x="650" y="162" font-weight="700" font-size="20" fill="#E0E7FF">Termux</text>
+<text x="650" y="186" font-size="13" fill="#A5B4FC">ngoding dari HP</text>
+</g>
+</svg>

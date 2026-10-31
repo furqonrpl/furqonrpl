@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="1" stop-color="#0B1030"/></linearGradient>
+<linearGradient id="txt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DE2C8"/><stop offset=".5" stop-color="#8B9CFF"/><stop offset="1" stop-color="#E879F9"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".5" stop-color="#8B5CF6" stop-opacity=".25"/><stop offset="1" stop-color="#2DE2C8" stop-opacity=".5"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+<clipPath id="type"><rect x="226" y="146" width="0" height="34"><animate attributeName="width" values="0;360;360;0" keyTimes="0;.55;.92;1" dur="6s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="card"><rect x="0" y="0" width="800" height="240" rx="26"/></clipPath>
+</defs>
+<style>
+.b1{animation:d1 14s ease-in-out infinite alternate}
+.b2{animation:d2 17s ease-in-out infinite alternate}
+.b3{animation:d3 20s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(160px,30px)}}
+@keyframes d2{to{transform:translate(-190px,-20px)}}
+@keyframes d3{to{transform:translate(90px,-40px)}}
+.pulse{animation:p 2.6s ease-in-out infinite}
+@keyframes p{0%,100%{opacity:.35}50%{opacity:.95}}
+.flick{animation:f 3.4s steps(1,end) infinite}
+@keyframes f{0%,100%{opacity:1}46%{opacity:1}47%{opacity:.82}49%{opacity:1}78%{opacity:.9}80%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#card)">
+<rect width="800" height="240" fill="url(#bg)"/>
+<g filter="url(#blur)">
+<ellipse class="b1" cx="150" cy="70" rx="170" ry="60" fill="#2DE2C8" opacity=".6"/>
+<ellipse class="b2" cx="640" cy="170" rx="190" ry="60" fill="#8B5CF6" opacity=".65"/>
+<ellipse class="b3" cx="400" cy="30" rx="170" ry="45" fill="#3B82F6" opacity=".55"/>
+<ellipse class="b2" cx="260" cy="215" rx="150" ry="40" fill="#E879F9" opacity=".4"/>
+</g>
+</g>
+<rect x="36" y="32" width="728" height="176" rx="26" fill="#fff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
+<rect x="60" y="33" width="680" height="1.5" rx="1" fill="#fff" fill-opacity=".5"/>
+<g font-family="'Segoe UI','Trebuchet MS',Ubuntu,sans-serif" font-weight="800" font-size="62" letter-spacing="8" text-anchor="middle">
+<text class="pulse" x="400" y="118" fill="#2DE2C8" filter="url(#glow)">NAMAMU</text>
+<text class="flick" x="400" y="118" fill="url(#txt)">NAMAMU</text>
+</g>
+<g font-family="'Courier New',Consolas,monospace" font-size="21" fill="#C7D2FE">
+<g clip-path="url(#type)"><text x="226" y="170">&gt; Python dev | terminal lover</text></g>
+<rect y="150" width="10" height="24" fill="#2DE2C8"><animate attributeName="x" values="226;586;586;226" keyTimes="0;.55;.92;1" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+</g>
+</svg>

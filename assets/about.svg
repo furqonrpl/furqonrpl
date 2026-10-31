@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230">
+<defs>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#8B5CF6" stop-opacity=".25"/><stop offset="1" stop-color="#2DE2C8" stop-opacity=".5"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="1" stop-color="#0B1030"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="34"/></filter>
+<clipPath id="c"><rect width="800" height="230" rx="26"/></clipPath>
+</defs>
+<style>
+.b1{animation:d1 15s ease-in-out infinite alternate}.b2{animation:d2 18s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(180px,20px)}}@keyframes d2{to{transform:translate(-200px,-10px)}}
+.l{opacity:0;animation:in .7s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.cur{animation:bl .9s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.l{opacity:1}}
+</style>
+<g clip-path="url(#c)"><rect width="800" height="230" fill="url(#bg)"/>
+<g filter="url(#blur)"><ellipse class="b1" cx="120" cy="200" rx="170" ry="50" fill="#3B82F6" opacity=".5"/><ellipse class="b2" cx="680" cy="40" rx="180" ry="50" fill="#8B5CF6" opacity=".55"/><ellipse class="b1" cx="500" cy="210" rx="120" ry="35" fill="#2DE2C8" opacity=".35"/></g></g>
+<rect x="30" y="24" width="740" height="182" rx="24" fill="#fff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
+<circle cx="62" cy="52" r="6" fill="#FF5F57"/><circle cx="82" cy="52" r="6" fill="#FEBC2E"/><circle cx="102" cy="52" r="6" fill="#28C840"/>
+<text x="400" y="57" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="14" fill="#A5B4FC" fill-opacity=".8">about-me.ps1</text>
+<g font-family="'Courier New',Consolas,monospace" font-size="19">
+<g class="l" style="animation-delay:.3s"><text x="64" y="102" fill="#2DE2C8">$ whoami</text><text x="230" y="102" fill="#E0E7FF">NAMAMU</text></g>
+<g class="l" style="animation-delay:.9s"><text x="64" y="132" fill="#2DE2C8">$ stack</text><text x="230" y="132" fill="#E0E7FF">Python, PowerShell, Termux</text></g>
+<g class="l" style="animation-delay:1.5s"><text x="64" y="162" fill="#2DE2C8">$ sedang</text><text x="230" y="162" fill="#E0E7FF">belajar dan bikin proyek sendiri</text></g>
+<g class="l" style="animation-delay:2.1s"><text x="64" y="192" fill="#2DE2C8">$ ngoding</text><text x="230" y="192" fill="#E0E7FF">dari HP dan PC</text><rect class="cur" x="436" y="176" width="10" height="20" fill="#E879F9"/></g>
+</g>
+</svg>

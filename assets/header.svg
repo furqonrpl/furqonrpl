@@ -33,11 +33,11 @@
 <rect x="36" y="32" width="728" height="176" rx="26" fill="#fff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
 <rect x="60" y="33" width="680" height="1.5" rx="1" fill="#fff" fill-opacity=".5"/>
 <g font-family="'Segoe UI','Trebuchet MS',Ubuntu,sans-serif" font-weight="800" font-size="62" letter-spacing="8" text-anchor="middle">
-<text class="pulse" x="400" y="118" fill="#2DE2C8" filter="url(#glow)">NAMAMU</text>
-<text class="flick" x="400" y="118" fill="url(#txt)">NAMAMU</text>
+<text class="pulse" x="400" y="118" fill="#2DE2C8" filter="url(#glow)">Furqon</text>
+<text class="flick" x="400" y="118" fill="url(#txt)">Furqon</text>
 </g>
 <g font-family="'Courier New',Consolas,monospace" font-size="21" fill="#C7D2FE">
-<g clip-path="url(#type)"><text x="226" y="170">&gt; Python dev | terminal lover</text></g>
+<g clip-path="url(#type)"><text x="226" y="170">&gt; jadilah bermanfaat diri sendiri dan orang lain</text></g>
 <rect y="150" width="10" height="24" fill="#2DE2C8"><animate attributeName="x" values="226;586;586;226" keyTimes="0;.55;.92;1" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
 </g>
 </svg>

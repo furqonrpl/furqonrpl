@@ -19,9 +19,9 @@
 <circle cx="62" cy="52" r="6" fill="#FF5F57"/><circle cx="82" cy="52" r="6" fill="#FEBC2E"/><circle cx="102" cy="52" r="6" fill="#28C840"/>
 <text x="400" y="57" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="14" fill="#A5B4FC" fill-opacity=".8">about-me.ps1</text>
 <g font-family="'Courier New',Consolas,monospace" font-size="19">
-<g class="l" style="animation-delay:.3s"><text x="64" y="102" fill="#2DE2C8">$ whoami</text><text x="230" y="102" fill="#E0E7FF">NAMAMU</text></g>
+<g class="l" style="animation-delay:.3s"><text x="64" y="102" fill="#2DE2C8">$ whoami</text><text x="230" y="102" fill="#E0E7FF">MuhammadFurqon</text></g>
 <g class="l" style="animation-delay:.9s"><text x="64" y="132" fill="#2DE2C8">$ stack</text><text x="230" y="132" fill="#E0E7FF">Python, PowerShell, Termux</text></g>
-<g class="l" style="animation-delay:1.5s"><text x="64" y="162" fill="#2DE2C8">$ sedang</text><text x="230" y="162" fill="#E0E7FF">belajar dan bikin proyek sendiri</text></g>
-<g class="l" style="animation-delay:2.1s"><text x="64" y="192" fill="#2DE2C8">$ ngoding</text><text x="230" y="192" fill="#E0E7FF">dari HP dan PC</text><rect class="cur" x="436" y="176" width="10" height="20" fill="#E879F9"/></g>
+<g class="l" style="animation-delay:1.5s"><text x="64" y="162" fill="#2DE2C8">$ sedang</text><text x="230" y="162" fill="#E0E7FF">explorasi banyak hal</text></g>
+<g class="l" style="animation-delay:2.1s"><text x="64" y="192" fill="#2DE2C8">$ ngoding</text><text x="230" y="192" fill="#E0E7FF">dari HP dan laptop</text><rect class="cur" x="436" y="176" width="10" height="20" fill="#E879F9"/></g>
 </g>
 </svg>

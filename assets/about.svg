@@ -17,7 +17,7 @@
 <g filter="url(#blur)"><ellipse class="b1" cx="120" cy="200" rx="170" ry="50" fill="#3B82F6" opacity=".5"/><ellipse class="b2" cx="680" cy="40" rx="180" ry="50" fill="#8B5CF6" opacity=".55"/><ellipse class="b1" cx="500" cy="210" rx="120" ry="35" fill="#2DE2C8" opacity=".35"/></g></g>
 <rect x="30" y="24" width="740" height="182" rx="24" fill="#fff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
 <circle cx="62" cy="52" r="6" fill="#FF5F57"/><circle cx="82" cy="52" r="6" fill="#FEBC2E"/><circle cx="102" cy="52" r="6" fill="#28C840"/>
-<text x="400" y="57" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="14" fill="#A5B4FC" fill-opacity=".8">about-me.ps1</text>
+<text x="400" y="57" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="14" fill="#A5B4FC" fill-opacity=".8">about-me</text>
 <g font-family="'Courier New',Consolas,monospace" font-size="19">
 <g class="l" style="animation-delay:.3s"><text x="64" y="102" fill="#2DE2C8">$ whoami</text><text x="230" y="102" fill="#E0E7FF">MuhammadFurqon</text></g>
 <g class="l" style="animation-delay:.9s"><text x="64" y="132" fill="#2DE2C8">$ stack</text><text x="230" y="132" fill="#E0E7FF">Python, PowerShell, Termux</text></g>

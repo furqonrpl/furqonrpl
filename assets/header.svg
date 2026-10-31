@@ -37,7 +37,7 @@
 <text class="flick" x="400" y="118" fill="url(#txt)">Furqon</text>
 </g>
 <g font-family="'Courier New',Consolas,monospace" font-size="21" fill="#C7D2FE">
-<g clip-path="url(#type)"><text x="226" y="170">&gt; ngoding bareng</text></g>
+<g clip-path="url(#type)"><text x="226" y="170">&gt; ngoding bareng furqon </text></g>
 <rect y="150" width="10" height="24" fill="#2DE2C8"><animate attributeName="x" values="226;586;586;226" keyTimes="0;.55;.92;1" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
 </g>
 </svg>
